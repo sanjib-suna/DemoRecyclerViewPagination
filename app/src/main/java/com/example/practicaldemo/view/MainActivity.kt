@@ -108,7 +108,6 @@ class MainActivity : AppCompatActivity() {
                         listRes.add(it.data.users[i])
                     }
                     adapter!!.setItems(listRes);
-                    setRecyclerView()
                     adapter!!.notifyDataSetChanged();
 
                     if (loading)
